@@ -1,0 +1,98 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    background-image: url(images/background.png);
+    background-size: cover;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+h1{ /*WYB*/
+    color: white;
+    font-weight: 700;
+    font-size: 60;
+    margin-bottom: 0;
+    padding-top: 30;
+}
+span{
+    font-size: 80;
+    font-weight: 550;
+}
+h2{ /*WEB YOUR BUSINESS*/
+    font-weight: 600;
+    font-size: 30;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h3{ /*Web development from idea to consumer? Look no further!*/
+    text-align: left;
+    font-size: 20;
+    font-weight: 200;
+    padding-bottom: 20;
+}
+h4{ /*botão portfolio*/
+    text-align: left;
+    padding-top: 20;
+}
+a{
+    font-size: 15;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+li{
+    display:inline;
+}
+.botao{ 
+    padding: 15 10 15 10;
+    border-radius: 4px;
+}
+.botao:hover{
+    background-color: rgb(0, 102, 102);
+    color: white;
+}
+.botao1{ /*portfolio*/
+    margin-top: 300;
+    background-color: white;
+}
+.botao2{ /*email*/
+    color: white;
+    background-color: black;
+    float: right;
+}
+.hi{ /*Hi. I’m Sandra!*/
+    font-size: 28;
+    font-weight: 500;
+    margin-top: 0;
+    text-align: right;
+}
+.services{ /*A web developer dedicated to...*/
+    font-size: 20;
+    font-weight: 200;
+    text-align: right;
+}
+.slogan2{ /*Take your online presence to the next level!*/
+    margin-top: 30;
+    margin-bottom: 20;
+    font-weight: 600;
+    text-align: right;
+    font-size: 20;
+    padding-bottom: 20;
+}
+ul li a{
+    list-style: none;
+    color: white;
+    letter-spacing: 40;
+    font-size: 18;
+    margin-top: 95;
+    margin-left: -30;
+}
+@media (max-width: 640px) {
+    body {
+        background: rgb(209, 211, 210);
+        .services{
+            font-size: 18;
+        }
+        .slogan2 {
+            font-size: 19;
+        }
+    }
+}
